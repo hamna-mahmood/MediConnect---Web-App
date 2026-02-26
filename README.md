@@ -7,6 +7,8 @@ Mediconnect is a multi-role healthcare web application that connects patients, p
 The system allows patients to search and order medicines, pharmacies to manage stock, and delivery agents to manage and complete deliveries.
 
 ## ✨ Features
+- Multi-language availability : English, Hindi and Tamil
+-First page displays language choosing option then the app functions in that language.
 
 ### 👤 Patient Role
 - User registration and login  
