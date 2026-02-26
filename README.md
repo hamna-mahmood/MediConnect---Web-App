@@ -40,6 +40,42 @@ The system allows patients to search and order medicines, pharmacies to manage s
 - PHP  
 - XAMPP (MySQL Database)
 
+## 📸 Screenshots
+
+### 🏥 Main Language Selection Page
+![Language Selection](images/Main-lang-choosing-pg.PNG)
+
+### 🇬🇧 English Interface
+![English Interface](images/English-interface.PNG)
+
+### 🇮🇳 Hindi Interface
+![Hindi Interface](images/Hindi-interface.PNG)
+
+### 🇮🇳 Tamil Interface
+![Tamil Interface](images/Tamil-interface.PNG)
+
+---
+
+### 👤 Patient Registration Page
+![Register Patient](images/Register-patient.PNG)
+
+### 👤 Patient Dashboard
+Patients can search medicines and place orders.
+![Patient Dashboard](images/Patient-dashboard.PNG)
+
+### 💊 Pharmacy Dashboard
+Pharmacies can manage medicine stock.
+![Pharmacy Dashboard](images/Pharmacy-dashboard.PNG)
+
+### 🚚 Delivery Dashboard
+Delivery agents can manage and complete deliveries.
+![Delivery Dashboard](images/Delivery-dashboard.PNG)
+
+---
+
+### 🛒 Order Confirmation Page
+![Order Placed](images/Order-placed.PNG)
+
 ## ⚙️ Installation
 
 1. Install XAMPP  
