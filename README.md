@@ -1,38 +1,38 @@
 # MediConnect
 Built in team collaboration
-## 🏥 Healthcare Medicine Delivery Web App
+## Healthcare Medicine Delivery Web App
 
 Mediconnect is a multi-role healthcare web application that connects patients, pharmacies, and delivery agents on a single platform.
 
 The system allows patients to search and order medicines, pharmacies to manage stock, and delivery agents to manage and complete deliveries.
 
-## ✨ Features
+## Features
 - Multi-language availability : English, Hindi and Tamil
 -First page displays language choosing option then the app functions in that language.
 
-### 👤 Patient Role
+### Patient Role
 - User registration and login  
 - Search medicines  
 - Place medicine orders  
 - Add delivery address / pickup details  
 - Select payment method  
 
-### 💊 Pharmacy Role
+### Pharmacy Role
 - Secure login access  
 - Add, update, and remove medicine stock  
 - Manage medicine availability  
 
-### 🚚 Delivery Agent Role
+### Delivery Agent Role
 - Delivery dashboard access  
 - View assigned orders  
 - Mark deliveries as completed  
 
-### 🔐 System Features
+### System Features
 - Multi-role authentication system  
 - Database-driven operations  
 - Responsive UI design
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - HTML  
 - CSS  
@@ -40,31 +40,31 @@ The system allows patients to search and order medicines, pharmacies to manage s
 - PHP  
 - XAMPP (MySQL Database)
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏥 Main Language Selection Page
+###  Main Language Selection Page
 Users can select their preferred language before accessing the platform. This improves accessibility for different users.
 ![Language Selection](images/Main-lang-choosing-pg.PNG)
 
-### 🇬🇧 English Interface
+### English Interface
 The application interface displayed in English language for better user accessibility.
 ![English Interface](images/English-interface.PNG)
 
-### 🇮🇳 Hindi Interface
+### Hindi Interface
 Users can switch to Hindi language interface for better usability.
 ![Hindi Interface](images/Hindi-interface.PNG)
 
-### 🇮🇳 Tamil Interface
+### Tamil Interface
 Supports Tamil language interface for regional users.
 ![Tamil Interface](images/Tamil-interface.PNG)
 
 ---
 
-### 👤 Patient Registration Page
+### Patient Registration Page
 Patients can create accounts by providing personal details to access medicine ordering services.
 ![Register Patient](images/Register-patient.PNG)
 
-### 👤 Patient Dashboard
+### Patient Dashboard
 Patients can:
 - Search medicines
 - View available medicines
@@ -72,7 +72,7 @@ Patients can:
 - Add delivery details
 ![Patient Dashboard](images/Patient-dashboard.PNG)
 
-### 💊 Pharmacy Dashboard
+### Pharmacy Dashboard
 Pharmacy users can:
 - Add new medicines
 - Update medicine stock
@@ -80,7 +80,7 @@ Pharmacy users can:
 - Manage inventory
 ![Pharmacy Dashboard](images/Pharmacy-dashboard.PNG)
 
-### 🚚 Delivery Dashboard
+### Delivery Dashboard
 Delivery agents can:
 - View assigned deliveries
 - Track orders
