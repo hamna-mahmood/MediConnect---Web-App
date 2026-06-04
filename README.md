@@ -1,15 +1,14 @@
-# MediConnect
-Built in team collaboration
-## Healthcare Medicine Delivery Web App
+# MediConnect - Healthcare Medicine Delivery Web App
 
+## Overview:
 Mediconnect is a multi-role healthcare web application that connects patients, pharmacies, and delivery agents on a single platform.
-
 The system allows patients to search and order medicines, pharmacies to manage stock, and delivery agents to manage and complete deliveries.
 
 ## Features
-- Multi-language availability : English, Hindi and Tamil
--First page displays language choosing option then the app functions in that language.
-
+### Multi-language Supoort 
+- English, Hindi and Tamil
+- Users can select language at the start of the application
+  
 ### Patient Role
 - User registration and login  
 - Search medicines  
@@ -103,11 +102,14 @@ Shows order summary after successful purchase and confirms order placement.
 ## ⚙️ Installation
 1. Install XAMPP  
 2. Clone or download repository  
-3. Move project folder to XAMPP htdocs directory  
+3. Move project folder to XAMPP htdocs directory  C:\xampp\htdocs\MediConnect\
 4. Start Apache and MySQL from XAMPP Control Panel  
-5. Import database file into phpMyAdmin  
-6. Open project in browser  
+5. Import database file into phpMyAdmin
+   - Create database (e.g., `mediconnect_db`)
+   - Import provided `.sql` file 
+6. Open project in browser
+   - http://localhost/MediConnect/
 
 ## 📬 Contact
-Email: hamnamahmood004@gmail.com  
-GitHub: github.com/hamna-mahmood  
+- Email: hamnamahmood004@gmail.com  
+- GitHub: github.com/hamna-mahmood  
