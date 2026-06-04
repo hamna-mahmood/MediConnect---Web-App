@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>MediConnect | Delivery Dashboard</title>
+<style>
+    body {
+        font-family: Georgia, serif;
+        background-color: #EAD7AE;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 60px auto;
+        background: #E6D1A3;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 0 15px rgba(75, 46, 26, 0.3);
+        border: 1px solid #8B6A3E;
+    }
+
+    h2 {
+        text-align: center;
+        color: #4B2E1A;
+        margin-bottom: 25px;
+    }
+
+    .search-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        border: 1px solid #8B6A3E;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+        background-color: #fff;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #4B2E1A;
+        color: white;
+        font-size: 16px;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: #3A2214;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #8B6A3E;
+        text-align: center;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #4B2E1A;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #F3E7C8;
+    }
+
+    .btn {
+        text-decoration: none;
+        color: white;
+        background-color: #4B2E1A;
+        padding: 7px 15px;
+        border-radius: 5px;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #3A2214;
+    }
+
+    .back {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .back a {
+        text-decoration: none;
+        color: #4B2E1A;
+        font-size: 16px;
+    }
+
+    .back a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Delivery Dashboard</h2>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search delivery orders...">
+        <button>Search</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Address</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>#MC101</td>
+            <td>Ali Khan</td>
+            <td>Lahore</td>
+            <td>Pending</td>
+            <td><a href="#" class="btn">Mark Delivered</a></td>
+        </tr>
+        <tr>
+            <td>#MC102</td>
+            <td>Sara Ahmed</td>
+            <td>Islamabad</td>
+            <td>Delivered</td>
+            <td><a href="#" class="btn" style="background-color:grey; pointer-events:none;">Completed</a></td>
+        </tr>
+    </table>
+
+    <div class="back">
+        <a href="login.html">← Back to Login</a>
+    </div>
+</div>
+
+</body>
+</html>

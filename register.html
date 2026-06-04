@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>MediConnect | Register</title>
+<style>
+    body {
+        font-family: Georgia, serif;
+        background-color: #E5CEA1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 450px;
+        margin: 80px auto;
+        background: #E5CEA1;
+        border-radius: 10px;
+border: 1px solid #4C3220;
+        padding: 30px 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #4C3220;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #4C3220;
+        font-size: 16px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #4C3220;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #4C3220;
+        color: #E5CEA1 ;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #987654;
+    }
+
+    .links {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #4C3220;
+        font-size: 15px;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Create a MediConnect Account</h2>
+<form method="POST" action="register.php">
+<label for="name">Name:</label>
+    <input type="text" name="name" required>
+<label for="email">Email:</label>
+    <input type="email" name="email" required>
+<label for="password">Password:</label>
+    <input type="password" name="password" required>
+<label for="phone">Phone:</label>
+    <input type="text" name="phone" required><br>
+Category:
+    <select name="category" required>
+        <option value="patient">Patient</option>
+    </select><br>
+
+    <button type="submit" class="btn">Register</button>
+</form>
+
+
+    <div class="links">
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</div>
+
+</body>
+</html>
